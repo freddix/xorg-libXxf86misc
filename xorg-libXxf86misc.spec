@@ -1,7 +1,7 @@
 Summary:	Xxf86misc library
 Name:		xorg-libXxf86misc
 Version:	1.0.3
-Release:	4
+Release:	5
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libXxf86misc-%{version}.tar.bz2
@@ -66,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libXxf86misc.so
-%{_libdir}/libXxf86misc.la
 %{_pkgconfigdir}/xxf86misc.pc
 %{_mandir}/man3/*.3x*
 
